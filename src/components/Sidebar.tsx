@@ -122,7 +122,7 @@ export function AppSidebar() {
             >
               <Link to="/settings">
                 <Settings className="h-4 w-4" />
-                <span>Settings</span>
+                <span>Generation Settings</span>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
