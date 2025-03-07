@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { useWebsites } from '@/context/WebsitesContext';
 import Header from '@/components/Header';
@@ -140,7 +141,7 @@ const WebsiteSitemap = () => {
   const { currentWebsite } = useWebsites();
 
   return (
-    <div className="flex min-h-screen bg-background">
+    <div className="min-h-screen flex w-full bg-background">
       <AppSidebar />
       <div className="flex-1">
         <Header />
